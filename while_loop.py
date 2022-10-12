@@ -5,7 +5,6 @@
 #     if data == 5:
 #         break  # keyword
 #     data += 1
-import datetime
 
 # user_prompt = True
 # age = 0
@@ -20,9 +19,12 @@ import datetime
 # print(f"Your age is: {age}")
 
 # Calculate year of birth
+import datetime
+
 day = 0
 month = 0
 year = 0
+
 while True:
     day = input("Input day you were born (e.g. 12): ")
     if day.isdigit():
