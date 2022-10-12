@@ -35,15 +35,15 @@ while True:
                         break
                     else:
                         print("Invalid entry")
-                        continue
+                        continue  # not needed but to clarify
                 break
             else:
                 print("Invalid entry")
-                continue
+                continue  # not needed but to clarify
         break
     else:
         print("Invalid entry")
-        continue
+        continue  # not needed but to clarify
 
 date_today = datetime.date
 print(date_today.today())
