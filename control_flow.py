@@ -25,22 +25,22 @@ age = int(input("Please enter you age: "))
 
 while True:
     if age > 117:
-        print("Please re-enter your age, ages above 99 not allowed: ")
+        print("Please re-enter your age, ages above 117 not allowed: ")
         break
     elif age >= 18:
-        print("You are allowed to view movies for 18 and above")
+        print("You are allowed to view movies for up to 18 and above")
         break
     elif age >= 16:
-        print("You are allowed to view movies for 16 and below")
+        print("You are allowed to view movies for up to 16 and below")
         break
     elif age >= 15:
-        print("You are allowed to view movies for 15 and below")
+        print("You are allowed to view movies for up to 15 and below")
         break
     elif age >= 12:
-        print("You are allowed to view movies for 12 and below")
+        print("You are allowed to view movies for up to 12 and below")
         break
     elif age >= 8:
-        print("You are allowed to view movies for 8 and below")
+        print("You are allowed to view movies for up to 8 and below")
         break
     else:
         age = int(input("please re-enter your age, no matches found: "))
